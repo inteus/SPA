@@ -1,0 +1,47 @@
+.users {
+    display: flex;
+    flex-direction: column;
+}
+
+.userItemWrapper {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 -1.1px 0 rgba(0, 0, 0, 0.15);
+}
+.userRightBlockWrapper {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.userPhoto {
+    width: 70px;
+    border-radius: 20%;
+}
+
+.pagination {
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+}
+  
+.pagination span {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination span:hover {
+    background-color: #ddd;
+}
+
+.paginationSelect {
+    background-color: #1e88e5;
+    color: white;
+}
+

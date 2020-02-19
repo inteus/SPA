@@ -1,0 +1,8 @@
+.post  {
+    background-color: #c4c7c7;
+    font-family: Tahoma;
+}
+.post img {
+    width: 60px;
+    border-radius: 50%;
+}
